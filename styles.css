@@ -26,6 +26,7 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    width: 500px;
 }
 
 .hidden {
