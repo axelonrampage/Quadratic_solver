@@ -1,3 +1,4 @@
+
 function solveQuadratic() {
     const a = parseFloat(document.getElementById("coefficientA").value);
     const b = parseFloat(document.getElementById("coefficientB").value);
@@ -23,3 +24,8 @@ function solveQuadratic() {
 
     solutionElement.classList.remove("hidden");
 }
+function resetForm() {
+    document.getElementById("quadraticForm").reset();
+    document.getElementById("solution").classList.add("hidden");
+}
+
